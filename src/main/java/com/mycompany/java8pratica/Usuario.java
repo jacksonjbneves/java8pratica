@@ -14,4 +14,9 @@ public class Usuario {
     private String email = "";
     private int cpf = 0;
     private String senha = "";
+    
+    public Usuario(){
+        
+    }
+    
 }
