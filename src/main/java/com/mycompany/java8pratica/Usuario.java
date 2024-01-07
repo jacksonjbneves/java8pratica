@@ -13,5 +13,5 @@ public class Usuario {
     private String nome = "";
     private String email = "";
     private int cpf = 0;
-    
+    private String senha = "";
 }
