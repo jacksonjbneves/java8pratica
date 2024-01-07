@@ -11,6 +11,7 @@ package com.mycompany.java8pratica;
 public class Usuario {
  
     private String nome = "";
+    private String email = "";
     private int cpf = 0;
     
 }
