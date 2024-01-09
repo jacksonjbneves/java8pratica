@@ -5,6 +5,8 @@
 
 package com.mycompany.java8pratica;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Jackson
@@ -12,6 +14,19 @@ package com.mycompany.java8pratica;
 public class Java8Pratica {
 
     public static void main(String[] args) {
-        System.out.println("\n\n\n Aplicando Conhecimentos do Livro: Java 8 Prática!");
+        
+        /* String valor = "Aprendendo a programar em Java";
+        System.out.println(valor.contains("Java"));*/
+        
+        System.out.println("Digite o seu Nome");
+        
+        String palavra;
+        Scanner entrada = new Scanner(System.in); //pegar as entradas das chars
+        palavra = entrada.next(); //aqui vai pegar as chars digitadas        
+        
+        System.out.println("Nome: "+palavra);
+        //System.out.println("\n\n\n Aplicando Conhecimentos do Livro: Java 8 Prática!");
+        
+        
     }
 }
